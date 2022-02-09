@@ -18,6 +18,7 @@ void LinkedList::Insert(int data, int pos)
         return;
     }
 
+    /*Use a temp var to traverse to n-1th node and point its next to the new node and new nodes next to the current*/
     m_Node* temp2 = m_Head;
     for (int i = 1; i < pos - 1; i++)
     {
@@ -31,6 +32,7 @@ void LinkedList::Delete(int pos)
 {
     m_Node* temp1 = m_Head;
 
+    /* Land at n-1th node and point to n+1th node, pretty simple */
     for (int i = 1; i < pos - 1; i++)
     {
         temp1 = temp1->next;
@@ -57,7 +59,7 @@ void LinkedList::ReverseMut()
 
 void LinkedList::Reverse()
 {
-    // Shameful, I dont Care
+    // Bad Code? I dont Care
     ReverseMut();
     Print();
     ReverseMut();

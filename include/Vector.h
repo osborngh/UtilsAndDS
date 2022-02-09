@@ -1,9 +1,9 @@
 class Vector
 {
     private:
-        int m_Cap;
-        int m_Size;
-        int *m_Arr;
+        int m_Cap; // Capacity of the "Vector"
+        int m_Size; // Size of the "vector", Not really associated but just used for access
+        int *m_Arr; // Underlying data;
     public:
         Vector(int);
         ~Vector();

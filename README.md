@@ -1,7 +1,7 @@
 # Simple DS and Utils
 
-Just for fun.
-Just Play Around
-It is not remotely as robust as the `Standard Library`.
+Please note that this is a learning aid but i'm learning DS.
 
-NOTE: Currently focused on ints only. I will implement generic type support later
+NOTE: Currently focused on Integers only. Generic type support will come (eventually) later.
+
+PS. Pretty Sure this project will be abandoned in a jiffy
