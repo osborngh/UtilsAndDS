@@ -1,7 +1,7 @@
 # Simple DS and Utils
 
-Please note that this is a learning aid but i'm learning DS.
+Simple Implementations of Data Structures that I've learnt.
 
-NOTE: Currently focused on Integers only. Generic type support will come (eventually) later.
+I'm self taught so they might not be well implemented.
 
-PS. Pretty Sure this project will be abandoned in a jiffy
+##### Might Include Algorithms Later
